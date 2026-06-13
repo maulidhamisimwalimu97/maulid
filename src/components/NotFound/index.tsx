@@ -62,7 +62,7 @@ const NotFound = () => {
                 been moved or deleted.
               </p>
               <Link
-                href="/"
+                href="/home"
                 className="rounded-md px-7 py-3 text-base font-medium text-white transition hover:bg-blue-700 bg-primary"
               >
                 Go To Home

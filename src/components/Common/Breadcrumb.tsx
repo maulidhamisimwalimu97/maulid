@@ -22,7 +22,7 @@ const Breadcrumb: React.FC<BreadcrumbProps> = ({
               <ul className="flex items-center justify-center gap-[10px]">
                 <li>
                   <Link
-                    href="/"
+                    href="/home"
                     className="text-black flex items-center gap-[10px] text-base font-medium dark:text-white dark:text-opacity-50"
                   >
                     Home

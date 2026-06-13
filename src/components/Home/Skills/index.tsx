@@ -8,7 +8,7 @@ const skillsData = [
   { name: 'React', icon: 'mdi:react', color: 'text-cyan-600', bg: 'bg-cyan-400/10' },
   { name: 'TypeScript', icon: 'mdi:language-typescript', color: 'text-blue-500', bg: 'bg-blue-400/10' },
   { name: 'JavaScript', icon: 'mdi:language-javascript', color: 'text-yellow-500', bg: 'bg-yellow-400/10' },
-  { name: 'MongoDB', icon: 'mdi:database', color: 'text-green-500', bg: 'bg-green-400/10' },
+  { name: 'Bootstrap', icon: 'mdi:bootstrap', color: 'text-purple-600', bg: 'bg-purple-400/10' },
   { name: 'MySQL', icon: 'mdi:database-outline', color: 'text-orange-500', bg: 'bg-orange-400/10' },
   { name: 'Tailwind CSS', icon: 'mdi:tailwind', color: 'text-teal-500', bg: 'bg-teal-400/10' },
   { name: 'Git', icon: 'mdi:git', color: 'text-red-500', bg: 'bg-red-400/10' },

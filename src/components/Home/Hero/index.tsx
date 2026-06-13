@@ -20,7 +20,7 @@ const Hero = () => {
             </span>
           </div>
           <h1 className='text-midnight_text font-bold dark:text-white text-4xl md:text-6xl md:leading-[1.15]'>
-            Hi, I'm{' '}
+            I'm{' '}
             <span className='text-primary'>Maulid Mwalimu</span>
           </h1>
           <p className='text-grey dark:text-white/70 text-xl font-semibold max-w-xl'>

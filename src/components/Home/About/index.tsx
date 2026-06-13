@@ -1,5 +1,7 @@
 'use client'
+import Image from 'next/image'
 import { Icon } from '@iconify/react'
+import { getImgPath } from '@/utils/image'
 
 const About = () => {
   return (
@@ -29,10 +31,17 @@ const About = () => {
             data-aos-delay='200'
             data-aos-duration='1000'>
             <div className='relative'>
-              <div className='w-full aspect-square max-w-md mx-auto bg-gradient-to-br from-primary/10 to-blue-400/10 rounded-2xl flex items-center justify-center'>
-                <Icon icon='mdi:account-tie' width='120' height='120' className='text-primary/40' />
+              <div className='w-full aspect-square max-w-md mx-auto rounded-2xl overflow-hidden'>
+                <Image
+                  src={getImgPath('/images/logo/maulid.jpeg')}
+                  alt='Maulid Mwalimu'
+                  width={500}
+                  height={500}
+                  quality={100}
+                  className='w-full h-full object-cover'
+                />
               </div>
-              <div className='absolute -bottom-4 -right-4 bg-primary text-white rounded-xl p-4 shadow-lg'>
+              <div className='absolute -bottom-4 -right-4 bg-success text-white rounded-xl p-4 shadow-lg'>
                 <p className='text-2xl font-bold'>3+</p>
                 <p className='text-xs'>Years</p>
               </div>

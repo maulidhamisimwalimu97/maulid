@@ -7,32 +7,34 @@ const projectsData = [
     tech: ['PHP', 'MySQL', 'HTML/CSS'],
     description: 'A comprehensive tourism platform showcasing travel destinations, tour packages, and booking management for Auntie Vee Tours.',
     color: 'from-blue-500 to-cyan-500',
-    icon: 'mdi:airplane'
+    icon: 'mdi:airplane',
+    link: 'https://auntieveeadventure.com/'
   },
   {
     title: 'Habitat Herous Tourism Website',
     tech: ['PHP', 'MySQL', 'Bootstrap'],
     description: 'Tourism website featuring wildlife habitats, conservation information, and safari booking system for Habitat Herous.',
     color: 'from-green-500 to-emerald-500',
-    icon: 'mdi:tree'
+    icon: 'mdi:tree',
+    link: 'https://habitatheroesadventures.co.tz/'
   },
   {
     title: 'Family Genealogy',
-    tech: ['Node.js', 'MongoDB', 'Express'],
+    tech: ['Node.js', 'Bootstrap', 'Express'],
     description: 'A family tree management system built with Node.js that allows users to trace and document their family lineage.',
     color: 'from-purple-500 to-pink-500',
     icon: 'mdi:family-tree'
   },
   {
     title: 'AfyaStock',
-    tech: ['Node.js', 'Express', 'MongoDB'],
+    tech: ['Node.js', 'Express', 'Bootstrap'],
     description: 'Healthcare inventory management system for tracking medical supplies, stock levels, and automated reordering.',
     color: 'from-red-500 to-orange-500',
     icon: 'mdi:medical-bag'
   },
   {
     title: 'TangaRide',
-    tech: ['Node.js', 'Next.js', 'MongoDB'],
+    tech: ['Node.js', 'Next.js', 'Bootstrap'],
     description: 'Ride-hailing and transportation platform built with Next.js and Node.js for seamless travel booking.',
     color: 'from-yellow-500 to-amber-500',
     icon: 'mdi:car'
@@ -88,7 +90,13 @@ const Projects = () => {
                   <Icon icon={project.icon} width='28' height='28' className='text-white' />
                 </div>
                 <h3 className='text-xl font-bold text-midnight_text dark:text-white mb-3'>
-                  {project.title}
+                  {project.link ? (
+                    <a href={project.link} target='_blank' rel='noopener noreferrer' className='hover:text-primary transition-colors'>
+                      {project.title}
+                    </a>
+                  ) : (
+                    project.title
+                  )}
                 </h3>
                 <p className='text-grey dark:text-white/70 text-base leading-relaxed mb-5'>
                   {project.description}

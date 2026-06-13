@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 const PortfolioList = () => {
     const breadcrumbLinks = [
-        { href: "/", text: "Home" },
+        { href: "/home", text: "Home" },
         { href: "/portfolio", text: "Portfolio" },
     ];
     return (
