@@ -30,8 +30,10 @@ const projectsData = [
     tech: ['Node.js', 'Express', 'Bootstrap'],
     description: 'Healthcare inventory management system for tracking medical supplies, stock levels, and automated reordering.',
     color: 'from-red-500 to-orange-500',
-    icon: 'mdi:medical-bag'
+    icon: 'mdi:medical-bag',
+    link: 'https://afyastock.onrender.com/'
   },
+
   {
     title: 'TangaRide',
     tech: ['Node.js', 'Next.js', 'Bootstrap'],
