@@ -47,6 +47,13 @@ const projectsData = [
     description: 'A modern web application built with Next.js and Node.js, delivering a responsive and engaging user experience.',
     color: 'from-indigo-500 to-purple-500',
     icon: 'mdi:web'
+  },
+  {
+    title: 'Global Horizon',
+    tech: ['Next.js', 'Node.js', 'Tailwind CSS'],
+    description: 'A corporate website for Global Horizon company, built with Next.js and Node.js for a modern, scalable web presence.',
+    color: 'from-teal-500 to-blue-500',
+    icon: 'mdi:domain'
   }
 ]
 
