@@ -2,24 +2,50 @@ export const Servicebox = [
   {
     icon: '/images/services/ux-design-product_1.svg',
     title: 'Web Development',
-    description: 'Building modern, responsive web applications with cutting-edge technologies.'
+    description: 'Building modern, responsive, and scalable web applications using Next.js, Node.js, PHP, and cutting-edge technologies.'
   },
   {
     icon: '/images/services/ux-design-product_2.svg',
     title: 'API Development',
-    description: 'Creating robust and scalable RESTful APIs for seamless integrations.'
+    description: 'Designing and developing secure REST APIs using Node.js and Express to support application features and data access.'
   },
   {
     icon: '/images/services/perfomance-optimization.svg',
-    title: 'Performance Optimization',
-    description: 'Optimizing web applications for speed, efficiency, and best user experience.'
+    title: 'API Integration',
+    description: 'Connecting applications with third-party APIs and external services to extend functionality and improve system communication.'
   }
 ]
 
 export const count = [
-  { icon: '/images/counter/bag.svg', value: '3+', label: 'Years Experience', description: 'Professional coding experience' },
-  { icon: '/images/counter/star.svg', value: '6+', label: 'Projects Completed', description: 'Successfully delivered' },
+  { icon: '/images/counter/bag.svg', value: '1+', label: 'Years Experience', description: 'Professional coding experience' },
+  { icon: '/images/counter/star.svg', value: '7+', label: 'Projects Completed', description: 'Successfully delivered' },
   { icon: '/images/counter/admin.svg', value: '5+', label: 'Happy Clients', description: 'Satisfied customers' }
+]
+
+export const experience = [
+  {
+    title: 'Freelance Web Developer',
+    company: 'Jaftech Company Limited',
+    period: '2025 - Present',
+    type: 'Freelance - Remote',
+    description: 'Developing and maintaining web applications, building scalable backend systems, and delivering full-stack solutions for clients.'
+  },
+  {
+    title: 'Freelance Web Developer',
+    company: 'Global Horizon Company Limited',
+    period: '2025 - Present',
+    type: 'Freelance - Remote',
+    description: 'Building modern web platforms, REST APIs, and digital solutions tailored to business needs using Next.js, Node.js, and PHP.'
+  }
+]
+
+export const education = [
+  {
+    degree: 'Bachelor of Science in Information Technology and Systems',
+    institution: 'University',
+    period: '2020 - 2023',
+    description: 'Studied information systems, software development, networking, and database management.'
+  }
 ]
 
 export const Progress = [

@@ -16,7 +16,7 @@ const Hero = () => {
           <div className='flex gap-2 items-center'>
             <span className='w-3 h-3 rounded-full bg-success'></span>
             <span className='font-medium text-midnight_text text-sm dark:text-white/50'>
-              Passionate Web Developer
+              Freelance Web Developer
             </span>
           </div>
           <h1 className='text-midnight_text font-bold dark:text-white text-4xl md:text-6xl md:leading-[1.15]'>
@@ -24,7 +24,7 @@ const Hero = () => {
             <span className='text-primary'>Maulid Mwalimu</span>
           </h1>
           <p className='text-grey dark:text-white/70 text-xl font-semibold max-w-xl'>
-            Full-stack web developer with 3+ years of experience building modern web applications using Node.js, PHP, and Next.js.
+            Full-stack web developer with experience building modern web applications using Node.js, PHP, and Next.js.
           </p>
           <div className='flex items-center gap-4 flex-wrap'>
             <a
@@ -69,7 +69,7 @@ const Hero = () => {
                 <div className="w-24 h-24 mx-auto mb-4 bg-primary/10 rounded-full flex items-center justify-center">
                   <Icon icon='mdi:code-tags' width='48' height='48' className='text-primary' />
                 </div>
-                <h3 className="text-midnight_text dark:text-white font-bold text-2xl">3+</h3>
+                <h3 className="text-midnight_text dark:text-white font-bold text-2xl">1+</h3>
                 <p className="text-grey dark:text-white/50 text-sm">Years Experience</p>
               </div>
             </div>

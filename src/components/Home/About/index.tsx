@@ -42,7 +42,7 @@ const About = () => {
                 />
               </div>
               <div className='absolute -bottom-4 -right-4 bg-success text-white rounded-xl p-4 shadow-lg'>
-                <p className='text-2xl font-bold'>3+</p>
+                <p className='text-2xl font-bold'>1+</p>
                 <p className='text-xs'>Years</p>
               </div>
             </div>
@@ -53,13 +53,12 @@ const About = () => {
             data-aos-delay='200'
             data-aos-duration='1000'>
             <p className='text-grey dark:text-white/70 text-lg leading-relaxed'>
-              I'm a passionate web developer with a <strong className='text-midnight_text dark:text-white'>Bachelor of Science in Information Technology and Systems</strong>. 
-              With over 3 years of hands-on experience, I specialize in building robust, scalable, and user-friendly web applications.
+              I'm a passionate <strong className='text-midnight_text dark:text-white'>full-stack web developer</strong> with experience building efficient, scalable, and reliable web applications. 
+              I work with technologies such as <strong className='text-midnight_text dark:text-white'>Next.js, Node.js, PHP, and MySQL</strong>, focusing on clean architecture, performance, and maintainable code.
             </p>
             <p className='text-grey dark:text-white/70 text-lg leading-relaxed'>
-              My expertise spans across <strong className='text-midnight_text dark:text-white'>Node.js, PHP, and Next.js</strong>, 
-              allowing me to deliver end-to-end solutions from concept to deployment. I'm driven by a passion for clean code, 
-              modern architecture, and creating digital experiences that make a difference.
+              I enjoy solving real-world technical problems, improving system reliability, and building digital solutions that support smooth user experiences. 
+              As a freelance developer, I've worked with companies like <strong className='text-midnight_text dark:text-white'>Jaftech Company Limited</strong> and <strong className='text-midnight_text dark:text-white'>Global Horizon Company Limited</strong>, delivering end-to-end web solutions from concept to deployment.
             </p>
             <div className='grid grid-cols-2 gap-4 pt-4'>
               <div className='flex items-center gap-3'>
@@ -77,7 +76,7 @@ const About = () => {
                 </div>
                 <div>
                   <p className='text-sm text-grey dark:text-white/50'>Projects</p>
-                  <p className='text-midnight_text dark:text-white font-semibold text-sm'>6+ Completed</p>
+                  <p className='text-midnight_text dark:text-white font-semibold text-sm'>7+ Completed</p>
                 </div>
               </div>
               <div className='flex items-center gap-3'>
@@ -91,11 +90,11 @@ const About = () => {
               </div>
               <div className='flex items-center gap-3'>
                 <div className='w-10 h-10 rounded-lg bg-amber-400/10 flex items-center justify-center'>
-                  <Icon icon='mdi:server' width='20' height='20' className='text-amber-600' />
+                  <Icon icon='mdi:briefcase-outline' width='20' height='20' className='text-amber-600' />
                 </div>
                 <div>
-                  <p className='text-sm text-grey dark:text-white/50'>Backend</p>
-                  <p className='text-midnight_text dark:text-white font-semibold text-sm'>Node.js & PHP</p>
+                  <p className='text-sm text-grey dark:text-white/50'>Work</p>
+                  <p className='text-midnight_text dark:text-white font-semibold text-sm'>Freelance Dev</p>
                 </div>
               </div>
             </div>

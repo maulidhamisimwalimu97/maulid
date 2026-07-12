@@ -58,23 +58,26 @@ const Contact = () => {
               </a>
             </div>
           </div>
-          <div
-            className='bg-white dark:bg-white/5 backdrop-blur-sm rounded-xl p-8 mt-6 text-center hover:shadow-lg dark:hover:bg-white/10 transition-all duration-300'
-            data-aos='fade-up'
-            data-aos-delay='600'
-            data-aos-duration='1000'>
-            <div className='w-14 h-14 rounded-xl bg-purple-400/20 flex items-center justify-center mb-5 mx-auto'>
-              <Icon icon='mdi:account-tie' width='28' height='28' className='text-purple-400' />
+            <div
+              className='bg-white dark:bg-white/5 backdrop-blur-sm rounded-xl p-8 mt-6 text-center hover:shadow-lg dark:hover:bg-white/10 transition-all duration-300'
+              data-aos='fade-up'
+              data-aos-delay='600'
+              data-aos-duration='1000'>
+              <div className='w-14 h-14 rounded-xl bg-purple-400/20 flex items-center justify-center mb-5 mx-auto'>
+                <Icon icon='mdi:account-tie' width='28' height='28' className='text-purple-400' />
+              </div>
+              <h3 className='text-midnight_text dark:text-white text-lg font-semibold mb-3'>Maulid Mwalimu</h3>
+              <p className='text-grey dark:text-white/50 text-base mb-2'>
+                Freelance Web Developer
+              </p>
+              <p className='text-grey dark:text-white/50 text-sm mb-4'>
+                Available for remote work worldwide
+              </p>
+              <div className='flex items-center justify-center gap-3'>
+                <span className='text-grey dark:text-white/50'>Available for freelance work</span>
+                <span className='w-2 h-2 rounded-full bg-success animate-pulse'></span>
+              </div>
             </div>
-            <h3 className='text-midnight_text dark:text-white text-lg font-semibold mb-3'>Maulid Mwalimu</h3>
-            <p className='text-grey dark:text-white/50 text-base mb-4'>
-              Bachelor of Science in Information Technology and Systems
-            </p>
-            <div className='flex items-center justify-center gap-3'>
-              <span className='text-grey dark:text-white/50'>Available for freelance work</span>
-              <span className='w-2 h-2 rounded-full bg-success animate-pulse'></span>
-            </div>
-          </div>
         </div>
       </div>
     </section>
