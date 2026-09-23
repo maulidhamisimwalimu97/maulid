@@ -1,6 +1,8 @@
 'use client'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Icon } from '@iconify/react'
+import { getImgPath } from '@/utils/image'
 
 const Hero = () => {
   return (
@@ -64,14 +66,27 @@ const Hero = () => {
         <div className="md:col-span-5 col-span-12 flex items-center justify-center relative">
           <div className="relative w-72 h-72 md:w-96 md:h-96">
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-blue-400/20 rounded-full animate-pulse"></div>
-            <div className="absolute inset-4 bg-gradient-to-br from-primary/30 to-blue-500/30 rounded-full backdrop-blur-sm flex items-center justify-center">
-              <div className="text-center">
-                <div className="w-24 h-24 mx-auto mb-4 bg-primary/10 rounded-full flex items-center justify-center">
-                  <Icon icon='mdi:code-tags' width='48' height='48' className='text-primary' />
-                </div>
-                <h3 className="text-midnight_text dark:text-white font-bold text-2xl">1+</h3>
-                <p className="text-grey dark:text-white/50 text-sm">Years Experience</p>
-              </div>
+            <div className="absolute inset-4 rounded-full overflow-hidden border-4 border-white dark:border-darklight shadow-2xl">
+              <Image
+                src={getImgPath('/images/hero/maud.jpeg')}
+                alt='Maulid Mwalimu'
+                fill
+                className='object-cover object-top'
+                sizes='(max-width: 768px) 288px, 384px'
+                priority
+              />
+            </div>
+            <div className="absolute top-8 -left-4 bg-white dark:bg-darkmode shadow-lg rounded-full px-4 py-2 text-sm font-semibold text-midnight_text dark:text-white flex items-center gap-2 border border-primary/20">
+              <Icon icon='mdi:react' width='18' height='18' className='text-primary' />
+              React
+            </div>
+            <div className="absolute bottom-10 -right-4 bg-white dark:bg-darkmode shadow-lg rounded-full px-4 py-2 text-sm font-semibold text-midnight_text dark:text-white flex items-center gap-2 border border-green-500/20">
+              <Icon icon='mdi:nodejs' width='18' height='18' className='text-green-600' />
+              Node.js
+            </div>
+            <div className="absolute top-1/2 -right-6 bg-white dark:bg-darkmode shadow-lg rounded-full px-4 py-2 text-sm font-semibold text-midnight_text dark:text-white flex items-center gap-2 border border-purple-500/20">
+              <Icon icon='mdi:language-javascript' width='18' height='18' className='text-purple-600' />
+              Next.js
             </div>
           </div>
         </div>

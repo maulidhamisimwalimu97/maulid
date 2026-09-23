@@ -1,18 +1,14 @@
 import Link from 'next/link';
-import Image from 'next/image';
-import { getImgPath } from '@/utils/image';
 
 const Logo: React.FC = () => {
   return (
-    <Link href="/home" className='flex items-center overflow-visible'>
-      <Image
-        src={getImgPath('/images/logo/logo.png')}
-        alt='Maulid'
-        width={150}
-        height={60}
-        className='h-16 w-auto object-contain -my-4'
-        priority
-      />
+    <Link
+      href='/home'
+      aria-label='Maulid Mwalimu'
+      className='flex items-center gap-2 group'>
+      <span className='text-midnight_text dark:text-white font-extrabold text-lg md:text-2xl tracking-tight whitespace-nowrap group-hover:text-primary transition-colors duration-300'>
+        Mwalimu Dev
+      </span>
     </Link>
   );
 };

@@ -25,7 +25,7 @@ export const count = [
 export const experience = [
   {
     title: 'Freelance Web Developer',
-    company: 'Jaftech Company Limited',
+    company: 'Uzafasta Group Limited',
     period: '2025 - Present',
     type: 'Freelance - Remote',
     description: 'Developing and maintaining web applications, building scalable backend systems, and delivering full-stack solutions for clients.'

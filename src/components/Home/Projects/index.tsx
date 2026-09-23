@@ -3,6 +3,14 @@ import { Icon } from '@iconify/react'
 
 const projectsData = [
   {
+    title: 'Global Horizon',
+    tech: ['Next.js', 'Node.js', 'Tailwind CSS'],
+    description: 'A corporate website for Global Horizon company, built with Next.js and Node.js for a modern, scalable web presence.',
+    color: 'from-teal-500 to-blue-500',
+    icon: 'mdi:domain',
+    link: 'https://globalhorizon.co.tz/'
+  },
+  {
     title: 'Auntie Vee Tourism Website',
     tech: ['PHP', 'MySQL', 'HTML/CSS'],
     description: 'A comprehensive tourism platform showcasing travel destinations, tour packages, and booking management for Auntie Vee Tours.',
@@ -26,11 +34,11 @@ const projectsData = [
     icon: 'mdi:family-tree'
   },
   {
-    title: 'AfyaStock',
+    title: 'StockHub',
     tech: ['Node.js', 'Express', 'Bootstrap'],
     description: 'Healthcare inventory management system for tracking medical supplies, stock levels, and automated reordering.',
     color: 'from-red-500 to-orange-500',
-    icon: 'mdi:medical-bag',
+    icon: 'mdi:warehouse',
     link: 'https://afyastock.onrender.com/'
   },
 
@@ -47,13 +55,6 @@ const projectsData = [
     description: 'A modern web application built with Next.js and Node.js, delivering a responsive and engaging user experience.',
     color: 'from-indigo-500 to-purple-500',
     icon: 'mdi:web'
-  },
-  {
-    title: 'Global Horizon',
-    tech: ['Next.js', 'Node.js', 'Tailwind CSS'],
-    description: 'A corporate website for Global Horizon company, built with Next.js and Node.js for a modern, scalable web presence.',
-    color: 'from-teal-500 to-blue-500',
-    icon: 'mdi:domain'
   }
 ]
 

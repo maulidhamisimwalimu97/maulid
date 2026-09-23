@@ -24,8 +24,8 @@ export default function RootLayout({
       <NextTopLoader />
         <ThemeProvider
           attribute="class"
-          enableSystem={true}
-          defaultTheme="system"
+          enableSystem={false}
+          defaultTheme="dark"
         >
           <Aoscompo>
             <Header />

@@ -58,7 +58,7 @@ const About = () => {
             </p>
             <p className='text-grey dark:text-white/70 text-lg leading-relaxed'>
               I enjoy solving real-world technical problems, improving system reliability, and building digital solutions that support smooth user experiences. 
-              As a freelance developer, I've worked with companies like <strong className='text-midnight_text dark:text-white'>Jaftech Company Limited</strong> and <strong className='text-midnight_text dark:text-white'>Global Horizon Company Limited</strong>, delivering end-to-end web solutions from concept to deployment.
+              As a freelance developer, I've worked with companies like <strong className='text-midnight_text dark:text-white'>Uzafasta Group Limited</strong> and <strong className='text-midnight_text dark:text-white'>Global Horizon Company Limited</strong>, delivering end-to-end web solutions from concept to deployment.
             </p>
             <div className='grid grid-cols-2 gap-4 pt-4'>
               <div className='flex items-center gap-3'>
